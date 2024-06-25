@@ -535,7 +535,7 @@ endif()
 
 # Quest winding number example ------------------------------------------------
 
-if( MFEM_FOUND)
+if(MFEM_FOUND)
     axom_add_executable(
         NAME        quest_winding_number_ex
         SOURCES     quest_winding_number.cpp
