@@ -29,7 +29,7 @@ This can be resolved by applying the following patch:
 ```
 See: https://github.com/mathandy/svgpathtools/pull/221
 
-It has another bug related to rounded rectangles, which can be resolved by applying the following pathc:
+It has another bug related to rounded rectangles, which can be resolved by applying the following patch:
 ```shell
 > patch  -p1 venv/lib/python3.9/site-packages/svgpathtools/svg_to_paths.py  -i svgpathtools-1.6.1-rounded-rect.patch --verbose
 ```
